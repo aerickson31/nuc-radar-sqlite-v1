@@ -1,0 +1,34 @@
+# NucRadar ETL config (v1, SQLite, dummy news fetcher)
+#
+# For now, this just drives the dummy ETL that creates one test event
+# per company. Later you can add real news API credentials here.
+
+companies:
+  - name: "TerraPower"
+    slug: "terrapower"
+  - name: "Kairos Power"
+    slug: "kairos-power"
+  - name: "Valar Atomics"
+    slug: "valar-atomics"
+  - name: "Radiant"
+    slug: "radiant"
+  - name: "Aalo Atomics"
+    slug: "aalo-atomics"
+  - name: "Last Energy"
+    slug: "last-energy"
+  - name: "Deep Fission"
+    slug: "deep-fission"
+  - name: "Antares Nuclear"
+    slug: "antares-nuclear"
+  - name: "NANO Nuclear"
+    slug: "nano-nuclear"
+  - name: "Curio"
+    slug: "curio"
+  - name: "Standard Nuclear"
+    slug: "standard-nuclear"
+  - name: "Nusano"
+    slug: "nusano"
+  - name: "TRISO-X"
+    slug: "triso-x"
+  - name: "Oklo"
+    slug: "oklo"
